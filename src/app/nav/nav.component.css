@@ -1,0 +1,38 @@
+.navbar {
+    position: relative;
+    min-height: 60px;
+    background: linear-gradient(rgb(37, 37, 37) 60%, rgba(37, 37, 37, 0));
+}
+
+.sqlog {
+    position: relative;
+    top: -20px;
+}
+
+.sqloga {
+    position: absolute;
+    top: 10px;
+    border: dashed 2px #fff;
+    width: 26px;
+    height: 26px;
+    animation: rotate 3s infinite;  
+}
+
+.sqlogb {
+    position: absolute;
+    top: 27px;
+    left: 17px;
+    border: dotted 2px #fff;
+    width: 20px;
+    height: 16px;
+    animation: rotate 3s infinite reverse;
+}
+
+.container {
+    position: relative;
+    max-width: 800px;
+}
+
+@keyframes rotate {
+    100% { transform: rotate(360deg); } 
+}
